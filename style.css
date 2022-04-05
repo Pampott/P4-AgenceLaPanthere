@@ -516,7 +516,6 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -677,7 +676,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -1039,4 +1038,23 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+/*Modifications*/ /*ai modifié taille de p*/
+#bloc2-title {
+    max-width: 28em;
+    margin: auto;
+}
+
+.quote blockquote{
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+    border: 0;
+    padding: 0 20px;
+}
+
+.quote figcaption {
+    font-size: 1.4em;
 }
