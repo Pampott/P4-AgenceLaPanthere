@@ -3225,7 +3225,9 @@ input[type=search] {
 }
 
 .form-group {
-    margin-bottom: 15px
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .checkbox,
